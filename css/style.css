@@ -36,6 +36,11 @@ body{
     margin: 0 auto;
 }
 
+.container-section{
+    max-width: 900px;
+    margin: 200px auto;
+}
+
 
 .bg-lightskyblue{
     background-color: lightskyblue;
@@ -44,6 +49,21 @@ body{
 .flex-direction{
     flex-direction: column;
 }
+
+h2{
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+.col-30{
+    width: 30%;
+    margin: 40px 0;
+}
+
 
 
 
@@ -102,3 +122,15 @@ h1{
 .h-jumbotron{
     height: 720px;
 }
+
+
+/* seconda parte */
+
+input{
+    padding: 20px ;
+}
+
+.top-col30{
+    text-align: center;
+}
+

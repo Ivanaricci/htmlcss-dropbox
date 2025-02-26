@@ -64,6 +64,23 @@ h2{
     margin: 40px 0;
 }
 
+h3{
+    padding-bottom: 13px;
+    font-size: 18px;
+}
+
+.strong{
+    font-weight: 10px;
+}
+
+.text-lightgrey{
+    color: rgb(176, 176, 176);
+}
+
+h6{
+    font-size: 12px;
+}
+
 
 
 
@@ -137,8 +154,27 @@ input{
 .bottom-col30{
     padding: 25px;
     line-height: 30px;
+    font-size: 14px;
+    height: 880px;
 }
 
-.bottom-col30:not(#h3) {
-    font-size: 14px;
-  }
+
+.bottom-col30 ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.lista{
+    padding: 48px 0px;
+}
+
+.single-text{
+    margin: 20px 0
+}
+
+.border-top{
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+

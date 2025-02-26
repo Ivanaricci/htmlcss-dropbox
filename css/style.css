@@ -79,7 +79,7 @@ header ul li{
 
 h1{
     padding: 50px 0px;
-    font-size: 85px;
+    font-size: 80px;
 }
 
 .image-jumbotron{
@@ -93,4 +93,12 @@ h1{
 
 .box-left p, .box-left a{
     margin-bottom: 45px;
+}
+
+.box-left div{
+    font-size: 45px;
+}
+
+.h-jumbotron{
+    height: 720px;
 }

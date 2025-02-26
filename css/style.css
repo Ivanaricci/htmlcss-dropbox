@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.container-header{
+    padding: 20px;
+}
+
+.content{
+    column-gap: 65px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.w-100{
+    max-width: 100%;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    column-gap: 20px;
+    padding: 0px 20px;
+}
+
+
+.btn{
+    background-color: blue;
+    color: white;
+    border: 2px solid rgba(0, 0, 159, 0.602);
+    text-decoration: none;
+    padding: 6px 19px;
+}

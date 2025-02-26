@@ -134,3 +134,11 @@ input{
     text-align: center;
 }
 
+.bottom-col30{
+    padding: 25px;
+    line-height: 30px;
+}
+
+.bottom-col30:not(#h3) {
+    font-size: 14px;
+  }

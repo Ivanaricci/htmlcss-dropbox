@@ -272,3 +272,8 @@ footer ul li{
 .title-footer{
     padding-bottom: 10px;
 }
+
+
+.gap{
+    column-gap: 10px;
+}

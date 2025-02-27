@@ -34,6 +34,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 65px 0;
 }
 
 .container-section{
@@ -99,6 +100,9 @@ h6{
 
 header{
     background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .container-header{
@@ -148,7 +152,7 @@ h1{
 }
 
 .h-jumbotron{
-    height: 720px;
+    height: 775px;
 }
 
 
@@ -193,6 +197,12 @@ input{
     border-right: 1px solid grey;
     border-top: 1px solid grey;
     border-left: 1px solid grey;
+}
+
+hr{
+    width: 47px;
+    color: rgba(0, 0, 0, 0.39);
+    margin-bottom: 20px;
 }
 
 /* terza parte */
@@ -276,4 +286,14 @@ footer ul li{
 
 .gap{
     column-gap: 10px;
+}
+
+.hr-footer{
+    width: 125px;
+    color: white;
+}
+
+.content-footer{
+    max-width: 1100px;
+    margin: 0 auto;
 }

@@ -81,6 +81,10 @@ h6{
     font-size: 12px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 
 
@@ -176,5 +180,24 @@ input{
     border-right: 1px solid grey;
     border-top: 1px solid grey;
     border-left: 1px solid grey;
+}
+
+.text-entreprise{
+    padding-top: 35px;
+    line-height: 20px;
+}
+
+
+.bottom-col100{
+    padding: 25px;
+    line-height: 30px;
+    font-size: 14px;
+    position: relative;
+}
+
+.btn-col100{
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }
 
